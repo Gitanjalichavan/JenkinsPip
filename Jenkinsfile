@@ -5,6 +5,12 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
+                
+            }
+         stage('welcome') {
+            steps {
+                echo 'Hello World'
+                
             }
         }
     }
